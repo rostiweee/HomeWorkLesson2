@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Форма обратной связи</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1><i>Форма обратной связи.</i></h1>
+      <h1><i>Форма обратной связи.</i></h1>
     </header>
     <form
       action="#"
@@ -16,25 +16,34 @@
       autocomplete="off"
       name="Login"
       method="POST">
-        <p>
-            <input type="text" name="name" maxlength="20" size="20" required>
-           <i>Ваше имя*</i></p>
-        <p>
-            <input type="email" name="email" required>
-            <i>Электронная почта*</i></p>
-        <p>
-            <input type="text" name="theme">
-            <i>Тема сообщения</i></p>
-        <p><i>Текст сообщения:</i></p>
-            <textarea name="comment" id="comment" required wrap="hard" cols="45" rows="7"></textarea>
-                <style>
-                    .redbutton {
-                        background: #B00000;
-                        color:white;
-                        font-size: 10;
-                    }
-                </style>
-        <p><input type="submit" class="redbutton" value="Отправить"></p>
+      <p>
+        <input type="text" name="name" maxlength="20" size="20" required />
+        <i>Ваше имя*</i>
+      </p>
+      <p>
+        <input type="email" name="email" required />
+        <i>Электронная почта*</i>
+      </p>
+      <p>
+        <input type="text" name="theme" />
+        <i>Тема сообщения</i>
+      </p>
+      <p><i>Текст сообщения:</i></p>
+      <textarea
+        name="comment"
+        id="comment"
+        required
+        wrap="hard"
+        cols="45"
+        rows="7"></textarea>
+      <style>
+        .redbutton {
+          background: #b00000;
+          color: white;
+          font-size: 10;
+        }
+      </style>
+      <p><input type="submit" class="redbutton" value="Отправить" /></p>
     </form>
-</body>
+  </body>
 </html>
