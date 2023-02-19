@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: darkolivegreen;
+}
+
+.text {
+    font-family: "Labrada", serif;
+    color: aqua;
+    font-size: 25px;
+    text-decoration: overline;
+}
+
+p {
+    font-family: "Gajraj One", cursive;
+    color: purple;
+    font-size: 20px;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+#specialtext {
+    color: chartreuse;
+    font: oblique small-caps 800 50px "Roboto";
+
+}
+
+p[name] {
+    font-family: "Roboto", sans-serif;
+    color: brown;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 5px 1px 7px black;
+}
+
+h1 {
+    font-family: "Mynerve", cursive;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+h2 {
+    font-family: "Mynerve", cursive;
+    color: darkred;
+}
+
+h3 {
+    color:green;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+}
+
+h4[id] {
+    color:gray;
+    font-family: "Labrada", serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+div {
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.span {
+    color:pink;
+    font: italic 500 39px "Mynerve";
+    text-shadow: 10px 10px 10px white;
+}
