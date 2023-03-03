@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mynerve", cursive;
+}
+
+body {
+  position: relative;
+  background-color: bisque;
+}
+
+.container {
+  position: relative;
+  background-color: antiquewhite;
+  width: 1900px;
+  height: 10vh;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+#button1 {
+  top: 0;
+  left: 15%;
+}
+
+#button2 {
+  top: 0;
+  left: 35%;
+}
+
+#button3 {
+  top: 0;
+  left: 55%;
+}
+
+#button4 {
+  top: 0;
+  left: 75%;
+}
+
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+  background: green;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background: lightgreen;
+}
+
+button:hover::before {
+  content: "\007C";
+  padding: 5px;
+}
+
+button:hover::after {
+  content: "\007C";
+  padding: 5px;
+}
+
+button:active {
+  box-shadow: 2px 2px 15px green;
+}
+
+button:active::before {
+  content: "\007C";
+  padding: 10px;
+}
+
+button:active:after {
+  content: "\007C";
+  padding: 10px;
+}
+
+.LoginPage {
+  position: absolute;
+  padding: 20px;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 420px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.SubmitButton {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 380px;
+  height: 25px;
+  font-weight: bold;
+}
+
+.SubmitButton:hover {
+  background-color: pink;
+  box-shadow: 3px 3px 5px black;
+  transition-duration: 0.5s;
+}
