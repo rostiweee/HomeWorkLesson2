@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  z-index: 1000;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(background.png) no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: none;
+  margin-left: 50px;
+  color: #000;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  z-index: 10;
+}
+
+.home,
+.about,
+.work,
+.contact {
+  position: relative;
+  border-radius: 25px;
+  display: inline;
+  color: #000000;
+  font-size: 23px;
+  padding: 5px 31px 8px 31px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.home:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.about:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.work:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.contact:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.home:active {
+  top: 1px;
+}
+.about:active {
+  top: 1px;
+}
+.work:active {
+  top: 1px;
+}
+.contact:active {
+  top: 1px;
+}
+
+.sidebar {
+  position: absolute;
+  width: 100px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+img {
+  position: absolute;
+  top: 850px;
+  left: 30px;
+  transform: scale(0.8);
+}
+
+.textcont {
+  position: relative;
+  width: 100px;
+  height: 500px;
+  top: 300px;
+}
+
+p {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 50px;
+  left: -225px;
+  width: 550px;
+  height: auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.coloredtext {
+  color: #b3b3b3;
+  font-weight: 500;
+}
+
+.explorework {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 30px 60px 0px #000;
+  background-color: #000;
+  border-radius: 25px;
+  border: 1px solid #000;
+  color: #f0ceab;
+  font-size: 17px;
+  padding: 15px 60px;
+  text-decoration: none;
+}
+.explorework:active {
+  top: 791px;
+}

@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.container {
+  width: 140px;
+  height: auto;
+}
+
+.download {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 15px;
+  padding: 9px 20px;
+}
+
+.download:hover {
+  background-color: #6495ed;
+  color: #fff;
+}
+
+.download:after {
+  content: "5";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 1px 5px;
+  border-radius: 7px;
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.news,
+.comments,
+.updates {
+  position: relative;
+  top: 80px;
+  left: 0;
+  margin: 7px;
+}
+
+.download,
+.news,
+.comments,
+.updates {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.news:after {
+  content: "5";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 1px 5px;
+  border-radius: 7px;
+  background-color: #1e8fff;
+  color: #fff;
+}
+
+.comments:after {
+  content: "10";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 1px 5px;
+  border-radius: 7px;
+  background-color: #808080;
+  color: #fff;
+}
+
+.updates:after {
+  content: "2";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 1px 5px;
+  border-radius: 7px;
+  background-color: #ff0000;
+  color: #fff;
+}
