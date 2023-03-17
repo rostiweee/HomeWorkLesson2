@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  width: 100%;
+}
+
+.section__header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-circle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.container-circle__header {
+  justify-content: flex-end;
+}
+
+.container-circle__footer {
+  justify-content: space-between;
+}
+
+.link {
+  width: 100px;
+  height: auto;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.section__main {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__footer {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+  padding: 0 0 0 10px;
+  border: 1px solid black;
+  font-size: 45px;
+}
+
+.section-content {
+  width: 100%;
+  height: 246px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-box {
+  width: 220px;
+  height: 220px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.content-box__another {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-rectangle {
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content-rectangle_reverse {
+  flex-direction: row-reverse;
+}
+
+.content-box__rignt-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.left-end {
+  display: flex;
+  width: 100px;
+  height: 200px;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.right-start {
+  display: flex;
+  width: 100px;
+  height: 200px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0 15px 0 15px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  transition-duration: 0.5s;
+  background-color: green;
+}
+
+.button:active {
+  background-color: red;
+  transition-duration: 0.5s;
+}
+
+@media (max-wight: 900px) {
+  .nav-del {
+    display: none;
+  }
+}

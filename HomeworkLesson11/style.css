@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  width: 100%;
+}
+
+.section__header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  width: 100px;
+  height: auto;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.section__main {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-content {
+  width: 100%;
+  height: 370px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  width: 280px;
+  height: 140px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-right_end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.content-left_end {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.text-info {
+  width: 100px;
+  height: 130px;
+  border: 1px solid black;
+}
+
+.card-box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-image {
+  width: 280px;
+  height: 190px;
+  background-color: wheat;
+  border: 1px solid black;
+}
+
+.card-sale {
+  width: 280px;
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.price {
+  width: 50px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 0 0 0 8px;
+}
+
+.section__footer {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+  padding: 0 0 0 10px;
+  border: 1px solid black;
+  font-size: 45px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  background-color: green;
+}
+
+.button:active {
+  background-color: red;
+  transition-duration: 0.5s;
+}
